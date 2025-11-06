@@ -1,0 +1,189 @@
+body {
+    background: green;
+}
+
+header,
+main,
+footer {
+    min-width: 855px;
+}
+
+header .container,
+main .container,
+footer .container {
+    max-width: 855px;
+    margin: auto;
+}
+
+header {
+    background: white;
+    overflow: auto;
+}
+
+header h1 {
+    float: left;
+    width: 570px;
+}
+
+header nav {
+    float: right;
+    width: 285px;
+}
+
+main {
+    background: white;
+    overflow: auto;
+}
+
+main .left {
+    float: left;
+    width: 570px;
+}
+
+main .right {
+    float: right;
+    width: 285px;
+}
+
+footer .left {
+    float: left;
+    width: 285px;
+}
+
+footer .sitemap {
+    float: right;
+    width: 285px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: green;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: green;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.matricula-box {
+    width: 420px;
+    border: 1px solid #d0d0d0;
+    padding: 18px;
+    box-shadow: none;
+    background: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #222;
+}
+
+img[src="topo_ifpi.png"] {
+    position: relative;
+    top: -60px;
+    left: -170px;
+    z-index: 2;
+    display: block;
+    margin: -50px auto;
+}
+
+.matricula-box h3 {
+    margin: 0 0 12px 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.form-row label {
+    width: 140px;
+    font-size: -13px;
+}
+
+.form-row input {
+    flex: 1;
+    padding: 7px 8px;
+    border: 1px solid #cfcfcf;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+input[type="date"] {
+    padding: 6px 8px;
+}
+
+.btn-confirm {
+    display: inline-block;
+    padding: 6px 14px;
+    border: 1px solid #bdbdbd;
+    background: #f6f6f6;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.actions {
+    margin-top: -40px;
+}
+
+img[src="logo-ifpi.png"] {
+    position: relative;
+    top: -27px;
+    left: -50px;
+    z-index: 2;
+    display: block;
+    margin: -95px auto;
+}
+
+.actions {
+    margin-top: 15px;
+}

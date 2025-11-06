@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+    <link rel="stylesheet" href="ifpi.css">
+    <title>IFPI</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#home">Efetuar Matrícula</a></li>
+            <li><a href="#home">Como Ingressar</a></li>
+            <li class="dropdown">
+                <a class="dropbtn">Cursos</a>
+                <div class="dropdown-content">
+                    <a href="#">Informática</a>
+                    <a href="#">Administração</a>
+                    <a href="#">Agropecuária</a>
+                    <a href="#">Mineração</a>
+                </div>
+            </li>
+            <li><a href="indexx.html">Início</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="container" style="display: flex; align-items: center; justify-content: space-between; padding: 20px;">
+            <form class="matricula-box" action="#" method="post" autocomplete="off" style="flex: 1; padding-right: 40px;">
+                <h3>Matrícula de Alunos</h3>
+                <div class="form-row">
+                    <label for="nome">Nome:</label>
+                    <input id="nome" name="nome" type="text" placeholder="Digite seu nome">
+                </div>
+                <div class="form-row">
+                    <label for="email">E-mail:</label>
+                    <input id="email" name="email" type="email" placeholder="seu@email.com">
+                </div>
+                <div class="form-row">
+                    <label for="nasc">Data de Nascimento:</label>
+                    <input id="nasc" name="nascimento" type="text" placeholder="dd/mm/aaaa">
+                </div>
+                <div class="form-row">
+                    <label for="senha">Senha:</label>
+                    <input id="senha" name="senha" type="password">
+                </div>
+                <div class="actions" style="margin-top: 15px;">
+                    <button class="btn-confirm" type="submit">Confirmar</button>
+                </div>
+            </form>
+            <div class="right" style="flex: 1; text-align: center;">
+                <img src="logo-ifpi.png" alt="Logo IFPI" width="250">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container" style="display: flex; justify-content: space-between; align-items: flex-start; padding: 20px;">
+            <div class="left">
+                <h3>Endereço</h3>
+                <p>IFPI - Paulistana</p>
+                <p>Rodovia BR 407, km 5, s/n</p>
+                <p>Paulistana - PI, 64750-000</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
